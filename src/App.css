@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.advanced-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group .error {
+  color: red;
+  font-size: 0.875em;
+}
+
+button[type="submit"], button[type="button"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover, button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+.form_container_contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.form_header {
+  margin-bottom: 20px;
+}
+
+.form_title {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.form_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  margin-bottom: 15px;
+}
+
+.form_label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form_input-ico {
+  display: flex;
+  align-items: center;
+}
+
+.form_input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form_input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.carousel-container {
+  max-width: 800px; /* Ancho máximo del carrusel */
+  margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%; /* Ajusta el ancho de los botones de control */
+}
+
+.carousel-indicators {
+  bottom: 10px; /* Posición de los indicadores */
+}
+
+/* Personaliza el aspecto de los indicadores */
+.carousel-indicators button {
+  background-color: #888; /* Color de fondo de los indicadores */
+  width: 12px; /* Ancho de cada indicador */
+  height: 12px; /* Alto de cada indicador */
+  margin: 0 5px; /* Espacio entre indicadores */
+  border-radius: 50%; /* Bordes redondeados */
+  border: none; /* Quita el borde */
+}
+
+.carousel-indicators .active {
+  background-color: #333; /* Color de fondo del indicador activo */
+}
+
+/* Agrega transiciones suaves entre las diapositivas */
+.carousel-item {
+  transition: opacity 1s ease;
+}
+
+.carousel-item.active {
+  opacity: 1; /* Muestra la diapositiva activa */
+}
