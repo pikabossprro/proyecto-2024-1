@@ -135,7 +135,7 @@ const Formulario = () => {
                         </div>
                     </div>
                     <div className="form">
-                        <button type="submit">Enviar</button>
+                        <button type="submit">envio</button>
                     </div>
                 </form>
             </div>
