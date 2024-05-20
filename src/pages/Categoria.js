@@ -4,7 +4,7 @@ const Categoria =()=>{
     return(
 
         <div>
-            <h1>CATEGORIA</h1>
+            <h1>CATEGORIAS</h1>
         </div>
     )
 
